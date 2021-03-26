@@ -8,6 +8,11 @@ FIXME: Write a paragraph about the library/project and highlight its goals.
 
 ## Development
 
+创建项目
+```bash
+$ clj -X:new :template figwheel-main :name learn-cljs/weather :args '["+deps" "--reagent"]'
+```
+
 To get an interactive development environment run:
 
     clojure -A:fig:build
